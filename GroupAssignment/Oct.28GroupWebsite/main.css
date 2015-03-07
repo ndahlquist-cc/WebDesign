@@ -1,0 +1,177 @@
+a:link {	color: #FF6600; }
+a:visited { color: #FFCC66; }
+a:hover { color: white; }
+a:active { color: yellow; }
+
+a.contact:link { color: black;}
+a.contact:visited { color: #FF6600;}
+a.contact:hover { color: white; }
+a.contact:active { color: orange; }
+body {
+	background: #FF9900 url("Images/back1.JPG") fixed center top;
+	background-size: 100%;
+}
+#header {
+	color: black;
+	background-color: ##FF9900;
+	width: 100%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#page {
+	background: url("Images/SAM_0265.JPG") scroll center top;
+	background-size: 100%;
+	width: 80%;
+	margin: 10px 200px 10px 150px;
+}
+#main {
+	text-align: justify;
+	margin: 0;
+	padding: 0 .25em;
+	font-size: 140%;
+	color: black;
+	font-family: Calibri, Arial, serif;
+}
+#footer {
+	border-top: 2px solid black;
+	width: 100%;
+	clear: both;
+	color: black;
+	text-align: right;
+	padding: 5px 0;
+}
+#text {
+	color: black;
+	margin-left: 22%;
+	margin-right: 27%;
+}
+h1 {
+	color: #FF9900;
+	text-align: right;
+	font-family: Calibri, Arial, serif;
+}
+#main h1 {
+	color: black;
+	text-align: center;
+}
+h3 {
+	color: black;
+}
+h4 {
+	padding: 0;
+	line-height: 0;
+}
+#logo {
+	float: left;
+}
+#title {
+	text-align: right;
+	background-color: black;
+}
+#utilities {
+	width: 95%;
+	color: black;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	font-size: 99%;
+}
+#navigation p {
+	text-align: left;
+	font-size: 120%;
+	margin: 0;
+	padding: .5em;
+	clear: left;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background: black;
+}
+#navigation a {
+	border-right: 2px solid white;
+	padding: .65em 2em .6em 0;
+	text-decoration: none;
+}
+#sidebar2 {
+	float: right;
+	border: 3px orange solid;
+	margin: .3% 0 .6% 0; 
+	padding: .5%;
+	width: 25%;
+	height: 100%;
+}
+#sidebar1 {
+	float: left;
+	border: 3px orange solid;
+	height: 100%;
+	width: 20%;
+	padding: .5%;
+	margin: .3% 0 .6% 0;
+}
+#sidebar2 img {
+	width: 98%;
+	border: 2px solid black;
+}
+#sidebar1 img {
+	width: 98%;
+	border: 2px solid black;
+}
+body.image {
+	max-width: none;
+	margin: 0;
+}
+a.current {
+	text-decoration: none;
+	color: gray;
+}
+.copyright {
+	margin-right: 2em;
+}
+#images {
+	margin-left: 29%;
+	margin-right: auto;
+}
+#about img {
+	border: 2px solid black;
+	padding: .5%;
+}
+.vertical {
+	margin-left: 10.5%;
+}
+.horizontal {
+	margin-left: 5%;
+}
+#about p{
+	text-align: center;
+	margin-right: 33%;
+}
+#images p {
+	text-align: center;
+	margin-right: 33%;
+}
+
+.conestoga {
+	margin-left: 15%;
+	border: 3px solid orange;
+	width: 70%;
+}
+.conestogamini {
+	border: 2px solid black;
+	margin: 0;
+	width: 24%;
+}
+#minis {
+	margin: 1% 5%;
+	border: 3px solid orange;
+	padding: .5% .1% .3% .5%;
+}
+.scenery {
+	padding: 0%;
+	margin-left: 5%;
+	width: 90%;
+}
+/*.sides {
+	border-left: orange dashed 2px;
+	border-right: orange dashed 2px;
+	margin-left: 100px;
+	margin-right: 100px;
+}*/

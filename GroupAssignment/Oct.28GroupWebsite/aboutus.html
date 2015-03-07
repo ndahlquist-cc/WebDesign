@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<title>Fall Fun
+	</title>
+	<link rel="shortcut icon" type="favicon/icon" href="favicon.ico" />
+</head>
+
+<body>
+
+	<div id="page">
+	
+		<div id="header">
+			<div id ="logo">
+			<img src="Images/logo.png" alt="logo" height="85em" width="85em" />
+			</div>
+			<div id="title">
+				<p><h1><img src="Images/cooltext1257198780.png" height="25%" width="20%" /></h1></p>
+			</div>
+			<h3>&nbsp; &nbsp;Manuel, Nicole, Peter &amp; Quinlan</h3>
+			<div id="utilities">
+			<p>Contact: &nbsp;&nbsp;&nbsp; <a href="mailto:niccid@outlook.com" class="contact">Nicole</a>
+			&nbsp;&nbsp;&nbsp; <a href="mailto:naaturaz@gmail.com" class="contact">Manuel</a> &nbsp;&nbsp;&nbsp; 
+			<a href="mailto:peter.thomson@live.ca" class="contact">Peter</a>&nbsp;&nbsp;&nbsp; 
+			<a href="mailto:quin.vannatter@gmail.com" class="contact">Quinlan</a></p>
+			</div>
+			
+			<div id="navigation">
+				<p>&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp; 
+				<a href="aboutus.html" class="current"> About Us</a>&nbsp;&nbsp;&nbsp; 
+				<a href="conestoga.html"> Conestoga</a>&nbsp;&nbsp;&nbsp; 
+				<a href="colours.html"> Fall Colours</a>&nbsp;&nbsp;&nbsp;</p>
+			</div>
+		</div>
+</body>
+		<div id="main" class="sides">
+		
+			<div id="images">
+			<p>Below are pictures of Quinlan and Peter having great fun throwing leaves at each other!</p>
+			<!--
+			* (C) 2000 www.CodeLifter.com
+			* http://www.codelifter.com
+			* Free for all users, but leave in this  header
+			-->
+			<body onload="runSlideShow()">  
+				
+				<table border="2px solid black">
+				<tr>
+				<td id="VU" height=400 width=600>
+				<img src="Images/SAM_0249.JPG" name='SlideShow' width="100%" height="410em"></td>
+				</tr>
+				</table>
+			
+			<script>
+					
+					var speed = 900
+
+					var Pic = new Array() 
+
+					Pic[0] = 'Images/SAM_0242.JPG'
+					Pic[1] = 'Images/SAM_0244.JPG'
+					Pic[2] = 'Images/SAM_0245.JPG'
+					Pic[3] = 'Images/SAM_0246.JPG'
+					Pic[4] = 'IMages/SAM_0248.JPG'
+
+
+					var t
+					var j = 0
+					var p = Pic.length
+
+					var preLoad = new Array()
+					for (i = 0; i < p; i++){
+					   preLoad[i] = new Image()
+					   preLoad[i].src = Pic[i]
+					}
+
+					function runSlideShow(){
+					   document.images.SlideShow.src = preLoad[j].src
+					   j = j + 1
+					   if (j > (p-1)) j=0
+					   t = setTimeout('runSlideShow()', speed)
+					}
+
+			</script>
+				<div id="about">
+				<p>In order from left to right, there is Peter Quinlan, Manny and Nicole; <br />
+				a great group of friends enjoying the fall time.</p>
+				<img src="Images/SAM_0263.jpg" height="400em" width="50%" alt="Us" title="Peter, Quinn, Manuel, Nicole" class="horizontal" />
+				<p>Hardcore Parkour! Quinlan is testing out his skills in a tree!</p>
+				<img src="Images/SAM_0254.jpg" height="600em" width="40%" alt="Quinn" title="Quinn climbing tree" class="vertical" />
+				<p>In order from left to right, there is Manny, Peter and Quinlan, all looking out at the beautiful lake located behind the Conestoga Campus.</p>
+				<img src="Images/SAM_0238.jpg" height="400em" width="60%" alt="Lake" title="Peter, Quinn, Manuel Enjoy the Lake" />
+				
+				</div>
+			</div>	 
+			
+			</body>
+		</div>
+		<div id="footer">
+			<p class="copyright">&copy; Copyright: Manuel, Nicole, Peter &amp; Quinlan 2013</p>
+		</div>
+	</div>
+</body>
